@@ -1,0 +1,178 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    /* background: #F5EEDC; */
+    background-color: #FFEC9E;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin: auto;
+  }
+  
+  hr {
+    background: grey;
+  }
+
+  #container {
+    padding: 4px 1px;
+    padding-right: 1px;
+    margin: auto;
+    display: flex;
+  }
+
+
+  #profile {
+    flex: 15%;
+    display: inline;
+    position: relative;
+    margin: 5% 2% 0 10%;
+    width: 100%;
+    height: 100%;
+    
+    
+  }
+  #info-cards {
+    flex: 55%;
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    height: 100%;
+    
+  }
+  #image {
+    object-position: 100px;
+    display: block;
+    margin: auto;
+    border-color: whitesmoke;
+    border: 5px solid ;
+  }
+
+  #image,
+  #profile-photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 100px ;
+
+}
+
+  #name {
+    font-size: 23px !important;
+    line-height: 20px !important;
+  }
+  #about,
+  .card > ul > li {
+    padding: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  #about {
+    font-size: 20px !important;
+    padding: 0 !important;
+  }
+  #name,
+  #about > p {
+    font-weight: bolder;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+  }
+  #email {
+    font-size: 15px !important;
+    font-family: "Open Sans", sans-serif;
+  }
+  #motto,
+  #skill,
+  #interests,
+  #profile,
+  #telephone,
+  #language {
+    color: #555;
+    font-size: 13.5px;
+    text-align: center;
+  }
+  strong,
+  span {
+    color: black;
+    font-size: 16px;
+  }
+  #social-links,
+  #about {
+    display: inline-block;
+  }
+  #social-links {
+    margin-bottom: 12px;
+  }
+  #social-links a {
+    margin: 0 10px;
+  }
+
+  .card {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    padding: 15px 30px 30px 30px;
+    margin-right: 80px;
+    background-color: whitesmoke;
+  }
+  .card > p {
+    color: #0e141e;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 2;
+  }
+  .card > p > i {
+    font-size: 18px;
+  }
+  .card > a {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    border: 0;
+    height: auto;
+    background: transparent;
+    color: #097bbf;
+    outline: none;
+    cursor: pointer;
+  }
+  .card > ul {
+    list-style-type: none;
+  }
+  .tags {
+    font-size: 17px;
+    font-weight: bolder;
+    
+  }
+  .tags ~ a {
+    display: none !important;
+  }
+  .tags span {
+    font-size: 14px;
+    font-weight: normal;
+    color: grey;
+  }
+  .tags span span {
+    color: #738f93;
+  }
+  @media screen and (max-width: 1090px) {
+    #profile {
+      margin-left: 5%;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    #container {
+      display: block;
+    }
+    #profile {
+      width: 90%;
+    }
+    .card {
+      margin: 0 5%;
+      margin-bottom: 30px;
+    }
+  }
