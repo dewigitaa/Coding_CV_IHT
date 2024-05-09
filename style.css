@@ -47,7 +47,7 @@ html {
     object-position: 100px;
     display: block;
     margin: auto;
-    border-color: whitesmoke;
+    border-color: white;
     border: 5px solid ;
   }
 
@@ -56,6 +56,8 @@ html {
     width: 110px;
     height: 110px;
     border-radius: 100px ;
+    border-color: whitesmoke;
+    
 
 }
 
